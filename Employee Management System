@@ -4,7 +4,7 @@ class Employee{
     int id;
     String name="";
     double salary;
-    private static ArrayList<Main> employees=new ArrayList();
+    private static ArrayList<Employee> employees=new ArrayList();
     
     private Employee(int id,String name,double salary){
         this.id=id;
